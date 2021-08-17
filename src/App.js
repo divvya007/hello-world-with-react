@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div>My first react App</div>
         <img src={logo} className="App-logo" alt="logo" />
         <HelloLabel color="red" fontStyle="italic" />
         <a
@@ -13,9 +14,7 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        ></a>
       </header>
     </div>
   );
